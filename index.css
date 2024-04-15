@@ -1,0 +1,43 @@
+.outputDiv, .buttonDivs {
+    text-align: center;
+}
+.buttonDivs {
+    display: flex;
+}
+.calcButtons {
+    width: 50px;
+    height: 50px;
+}
+.lastButtons {
+    width: 100px;
+    height: 50px;
+}
+.outputDiv, .buttonDivs, .mainDiv {
+    justify-content: center;
+}
+header {
+    text-align: center;
+}
+.outputDiv {
+    background-color: azure;
+    width: 200px;
+    height: 100px;
+    border: 2px black solid;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.outputDiv, .calcButtons, .lastButtons, .secondaryDiv {
+    border: 2px black solid;
+    border-radius: 20px;
+}
+.secondaryDiv {
+    width: 200px;
+    border: 10px black solid;
+}
+.mainDiv {
+    display: flex;
+}
+.calcButtons, #outputText{
+    font-family: Geneva;
+}
