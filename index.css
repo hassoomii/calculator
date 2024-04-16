@@ -4,7 +4,7 @@
 .buttonDivs {
     display: flex;
 }
-.calcButtons {
+.calcButtons, .lastNumButtons {
     width: 50px;
     height: 50px;
 }
@@ -27,7 +27,7 @@ header {
     margin: auto;
     margin-bottom: 2%;
 }
-.outputDiv, .calcButtons, .lastButtons, .secondaryDiv {
+.outputDiv, .calcButtons, .lastButtons, .secondaryDiv, .lastNumButtons{
     border: 2px black solid;
     border-radius: 20px;
 }
